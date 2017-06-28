@@ -63,6 +63,8 @@ Get power consumption data for HS110 plugs.
 Returns true if plug is on.
 #### setPowerState(value) _(promise)_
 Turns the plug on or off.
+#### setName(value) _(promise)_
+Change plug's alias.
 #### getScheduleNextAction _(promise)_
 #### getScheduleRules _(promise)_
 #### getAwayRules _(promise)_
