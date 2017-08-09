@@ -1,6 +1,6 @@
 {
   "name": "react-native-tplink",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "TPLink HS100/HS110 WiFi Smart Plug API",
   "author": "Patrick Seal",
   "license": "MIT",
