@@ -2,15 +2,15 @@
   "name": "react-native-tplink",
   "version": "0.3.8",
   "description": "TPLink HS100/HS110 WiFi Smart Plug API",
-  "author": "Patrick Seal",
+  "author": "Patrick Seal & Netbeast Staff",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/plasticrake/hs100-api.git"
+    "url": "git://github.com/netbeast/react-native-tplink"
   },
   "bugs": {
-    "url": "https://github.com/plasticrake/hs100-api/issues",
-    "email": "code@plasticrake.com"
+    "url": "https://github.com/netbeast/react-native-tplink/issues",
+    "email": "staff@netbeast.co"
   },
   "keywords": [
     "tplink",
@@ -20,9 +20,6 @@
     "smartplug",
     "api"
   ],
-  "engines": {
-    "node": ">=4.4.0"
-  },
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
@@ -31,8 +28,6 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "preversion": "npm test",
-    "postversion": "git push && git push --tags",
-    "test": "./node_modules/.bin/mocha"
+    "postversion": "git push && git push --tags"
   }
 }
